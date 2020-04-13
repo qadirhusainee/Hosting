@@ -1,12 +1,12 @@
 /* Get font from External Link */
 @font-face {
   font-family: "Nexa";
-  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9Chat/NexaRegular.otf);
+  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9/NexaRegular.otf);
   font-weight: normal;
 }
 @font-face {
   font-family: "Nexa";
-  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9Chat/Nexa-Bold.otf);
+  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9/Nexa-Bold.otf);
   font-weight: bold;
 }
 
