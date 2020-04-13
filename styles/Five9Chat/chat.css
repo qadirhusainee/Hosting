@@ -1,0 +1,174 @@
+/* Get font from External Link */
+@font-face {
+  font-family: "Nexa";
+  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9Chat/NexaRegular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nexa";
+  src: url(https://qadirhusainee.github.io/Hosting/styles/Five9Chat/Nexa-Bold.otf);
+  font-weight: bold;
+}
+
+body {
+  font-family:Nexa !important;
+}
+* {
+  font-family:Nexa !important;
+}
+
+/* Common button style */
+.five9-action-btn {
+    background-color: #E9741C !important;
+    border-radius: 0 0 0 15px !important;
+    color:#fff;
+}
+
+/*  Out of hours text */
+h2#error-message {
+    word-wrap: break-word;
+}
+
+/* Hiding provider name(Five9) */
+.provider {
+    display:none !important;
+}
+
+.chat-input-message-container {
+   padding: 0 5px !important;
+}
+
+/* Send button */
+#conversation-page #send-button {
+    background: #E9741C !important;
+    border-radius: 0 0 0 15px !important;
+    color: #fff;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+.ui-header {
+    border: 0px !important;
+    margin-top: 5px !important;
+}
+
+.five9-link-btn {
+    color: #002f6c !important;
+}
+
+/* Changing broder color of input */
+.ui-input-text {
+  border-color: #cbc9c7 !important;
+}
+
+/* Hiding close Text and displaying Cross icon */
+a#close-button {
+    visibility: hidden !important;
+}
+a#close-button:after {
+    content: "X" !important;
+    visibility: visible;
+    color: #E9741C !important;
+    font-size: 30px;
+    top: -10px;
+    position: relative !important;
+    font-family: sans-serif !important;
+}
+
+
+/* Appending text "Chat" on End button */
+a#terminate-conversation-button:after {
+    content: " Chat";
+}
+
+.five9-right-btn:after {
+    background-image: none !important;
+}
+
+/* aligning Logo on left */
+.fill-logo {
+  padding: 2px 10px;
+  text-align: left;
+}
+
+/* chat message container with border */
+div.message-container {
+    border-radius: 8px !important;
+    border: 1px solid rgba(231, 232, 231, 1) !important;
+}
+
+/* Client chat with background color */
+.message-container-client .message-container {
+    background-color: rgba(246, 246, 251, 1);
+}
+
+/* End chat bottom buttons and text */
+a.five9-link-btn.start-over-button {
+    background-color: #E9741C !important;
+    padding: 10px !important;
+    color: #fff !important;
+    border-radius: 0 0 0 15px !important;
+}
+a#footer-close-button {
+    background-color: #002f6c !important;
+    padding: 10px !important;
+    color: #fff !important;
+    border-radius: 0 0 0 15px !important;
+}
+.end-who {
+    margin-bottom: 15px !important;
+    font-weight: normal !important;
+    color: #002f6c !important;
+}
+
+/* Pop up for confirmation of ending chat */
+.ui-popup-container {
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+.terminate-chat-popup .five9-cancel-btn {
+    background-color: #002f6c !important;
+    color: #fff !important;
+    border-radius: 0 0 0 15px !important;
+    text-decoration: none;
+}
+.terminate-chat-popup .five9-confirm-btn {
+    background-color: #E9741C !important;
+    color: #fff !important;
+    border-radius: 0 0 0 15px !important;
+    text-decoration: none;
+}
+.ui-popup-content {
+  line-height: 28px !important;
+}
+
+.ui-footer {
+  text-align: center !important;
+  min-height: 50px !important;
+}
+
+#conversation-page .ui-content.expanded {
+  margin-top: 10px !important;
+}
+
+/* Chat messages */
+.message-header {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+}
+.message-container-agent {
+  margin-top: 3px !important;
+}
+.message-container-client {
+  margin-top: 3px !important;
+}
+.message-container-agent .origin {
+  color: #002f6c !important;
+  font-size: 15px !important;
+  font-weight: normal !important;
+}
+.message-container-client .origin {
+  color: #E9741C !important;
+  font-size: 15px !important;
+  font-weight: normal !important;
+}
